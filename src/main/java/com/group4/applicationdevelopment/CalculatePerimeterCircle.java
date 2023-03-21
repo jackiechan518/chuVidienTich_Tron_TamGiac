@@ -146,7 +146,7 @@ public class CalculatePerimeterCircle extends javax.swing.JFrame {
 
     private void calculatePerimeterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_calculatePerimeterActionPerformed
         int rCircle = Integer.parseInt(r.getText())
-        double s = (double)rCircle*3.14;
+        double s = (double)rCircle*2*3.14;
         noticeLabel.setText(String.valueOf(s));
     }//GEN-LAST:event_calculatePerimeterActionPerformed
 
