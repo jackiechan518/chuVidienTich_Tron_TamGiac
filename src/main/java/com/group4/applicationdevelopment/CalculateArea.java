@@ -172,7 +172,7 @@ public class CalculateArea extends javax.swing.JFrame {
         }
         float p=(float)(s1+s2+s3)/2;
         float s;
-        s=(float)Math.sqrt(p*(p-s1)*(p-s2)*(p+s3));
+        s=(float)Math.sqrt(p*(p-s1)*(p-s2)*(p-s3));
     }//GEN-LAST:event_calculatePerimeterActionPerformed
 
     /**
